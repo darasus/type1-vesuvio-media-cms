@@ -1,15 +1,16 @@
 module.exports = ({ env }) => ({
-  defaultConnection: 'default',
+  defaultConnection: "default",
   connections: {
     default: {
-      connector: 'bookshelf',
+      connector: "bookshelf",
       settings: {
-        client: 'sqlite',
-        filename: env('DATABASE_FILENAME', '.tmp/data.db'),
+        client: "postgres",
+        host: `/cloudsql/${process.env.INSTANCE_CONNECTION_NAME}`,
+        database: `${process.env.DATABASE_NAME}`,
+        username: `${process.env.DATABASE_USERNAME}`,
+        password: `${process.env.DATABASE_PASSWORD}`,
       },
-      options: {
-        useNullAsDefault: true,
-      },
+      options: {},
     },
   },
 });
