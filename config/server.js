@@ -1,14 +1,4 @@
 module.exports = ({ env }) => ({
-  host: `${process.env.HOST}`,
-  port: `${process.env.PORT || 5000}`,
-  production: true,
-  proxy: {
-    enabled: false,
-  },
-  cron: {
-    enabled: false,
-  },
-  admin: {
-    autoOpen: false,
-  },
+  host: env("HOST", "0.0.0.0"),
+  port: env.int("PORT", 1337),
 });
