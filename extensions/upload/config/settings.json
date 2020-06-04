@@ -1,0 +1,8 @@
+{
+    "provider": "google-cloud-storage",
+    "providerOptions": {
+      "serviceAccount": "${process.env.GCS_SERVICE_ACCOUNT}",
+      "bucketName": "utbeast.appspot.com",
+      "baseUrl": "https://storage.googleapis.com/utbeast.appspot.com"
+    }
+  }
