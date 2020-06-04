@@ -1,28 +1,27 @@
 {
   "kind": "collectionType",
-  "collectionName": "sites",
+  "collectionName": "products",
   "info": {
-    "name": "Site"
+    "name": "Product"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "uid": {
+    "slug": {
       "type": "uid",
       "targetField": "title"
     },
     "title": {
       "type": "string"
     },
-    "articles": {
-      "via": "site",
-      "collection": "article"
+    "url": {
+      "type": "string"
     },
-    "products": {
-      "via": "site",
-      "collection": "product"
+    "site": {
+      "model": "site",
+      "via": "products"
     }
   }
 }
