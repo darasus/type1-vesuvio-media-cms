@@ -31,8 +31,8 @@
       "required": false
     },
     "site": {
-      "model": "site",
-      "via": "articles"
+      "via": "articles",
+      "model": "site"
     }
   }
 }

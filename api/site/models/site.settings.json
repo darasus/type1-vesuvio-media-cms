@@ -17,12 +17,19 @@
       "type": "string"
     },
     "articles": {
-      "via": "site",
-      "collection": "article"
+      "collection": "article",
+      "via": "site"
     },
     "products": {
-      "via": "site",
-      "collection": "product"
+      "collection": "product",
+      "via": "site"
+    },
+    "home_page": {
+      "model": "home-page",
+      "via": "site"
+    },
+    "primary_color": {
+      "type": "string"
     }
   }
 }

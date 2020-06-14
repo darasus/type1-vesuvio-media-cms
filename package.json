@@ -8,7 +8,8 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "gcp-build": "strapi build"
+    "gcp-build": "strapi build",
+    "deploy": "gcloud app deploy app.yaml"
   },
   "devDependencies": {},
   "dependencies": {

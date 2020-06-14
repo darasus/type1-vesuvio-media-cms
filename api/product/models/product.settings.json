@@ -20,8 +20,22 @@
       "type": "string"
     },
     "site": {
-      "model": "site",
-      "via": "products"
+      "via": "products",
+      "model": "site"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "short_description": {
+      "type": "richtext"
     }
   }
 }

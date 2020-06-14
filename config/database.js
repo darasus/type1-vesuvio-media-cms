@@ -9,6 +9,7 @@ module.exports = ({ env }) => ({
       },
       options: {
         useNullAsDefault: true,
+        strict: true,
       },
     },
   },

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "introduction_text": {
+      "type": "richtext"
+    },
+    "main_text": {
+      "type": "richtext"
+    },
+    "site": {
+      "via": "home_page",
+      "model": "site"
+    }
+  }
+}
