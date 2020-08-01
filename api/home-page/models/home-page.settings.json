@@ -33,6 +33,14 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "seo_title": {
+      "type": "string",
+      "maxLength": 55
+    },
+    "seo_description": {
+      "type": "string",
+      "maxLength": 160
     }
   }
 }
