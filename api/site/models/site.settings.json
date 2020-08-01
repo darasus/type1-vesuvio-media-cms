@@ -21,15 +21,19 @@
       "collection": "article"
     },
     "products": {
-      "via": "site",
-      "collection": "product"
+      "collection": "product",
+      "via": "site"
     },
     "home_page": {
-      "via": "site",
-      "model": "home-page"
+      "model": "home-page",
+      "via": "site"
     },
     "primary_color": {
       "type": "string"
+    },
+    "is_published": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

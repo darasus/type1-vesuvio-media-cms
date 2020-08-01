@@ -42,6 +42,10 @@
     "seo_description": {
       "type": "text",
       "maxLength": 160
+    },
+    "is_published": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
