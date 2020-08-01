@@ -11,31 +11,33 @@
   "attributes": {
     "slug": {
       "type": "uid",
-      "targetField": "title"
+      "targetField": "title",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "site": {
-      "via": "products",
-      "model": "site"
+      "model": "site",
+      "via": "products"
     },
     "Image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "short_description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

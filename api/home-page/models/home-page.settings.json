@@ -10,14 +10,29 @@
   },
   "attributes": {
     "introduction_text": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "main_text": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "site": {
-      "via": "home_page",
-      "model": "site"
+      "model": "site",
+      "via": "home_page"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "intro_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
