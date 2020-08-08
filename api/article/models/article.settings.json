@@ -32,8 +32,8 @@
       "required": false
     },
     "site": {
-      "model": "site",
-      "via": "articles"
+      "via": "articles",
+      "model": "site"
     },
     "seo_title": {
       "type": "string",

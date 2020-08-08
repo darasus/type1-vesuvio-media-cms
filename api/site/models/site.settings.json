@@ -17,8 +17,8 @@
       "type": "string"
     },
     "articles": {
-      "via": "site",
-      "collection": "article"
+      "collection": "article",
+      "via": "site"
     },
     "products": {
       "collection": "product",
@@ -34,6 +34,14 @@
     "is_published": {
       "type": "boolean",
       "default": false
+    },
+    "is_no_index": {
+      "type": "boolean",
+      "default": true
+    },
+    "domain_name": {
+      "type": "string",
+      "required": true
     }
   }
 }
