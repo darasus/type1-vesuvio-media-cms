@@ -18,8 +18,8 @@
       "required": true
     },
     "site": {
-      "via": "home_page",
-      "model": "site"
+      "model": "site",
+      "via": "home_page"
     },
     "title": {
       "type": "string",
@@ -36,7 +36,7 @@
     },
     "seo_title": {
       "type": "string",
-      "maxLength": 55
+      "maxLength": 65
     },
     "seo_description": {
       "type": "string",

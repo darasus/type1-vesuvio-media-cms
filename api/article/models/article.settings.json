@@ -32,12 +32,12 @@
       "required": false
     },
     "site": {
-      "via": "articles",
-      "model": "site"
+      "model": "site",
+      "via": "articles"
     },
     "seo_title": {
       "type": "string",
-      "maxLength": 55
+      "maxLength": 65
     },
     "seo_description": {
       "type": "text",

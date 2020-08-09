@@ -17,16 +17,16 @@
       "type": "string"
     },
     "articles": {
-      "collection": "article",
-      "via": "site"
+      "via": "site",
+      "collection": "article"
     },
     "products": {
       "collection": "product",
       "via": "site"
     },
     "home_page": {
-      "model": "home-page",
-      "via": "site"
+      "via": "site",
+      "model": "home-page"
     },
     "primary_color": {
       "type": "string"
