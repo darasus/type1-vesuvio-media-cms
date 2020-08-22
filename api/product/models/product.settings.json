@@ -23,8 +23,8 @@
       "required": true
     },
     "site": {
-      "via": "products",
-      "model": "site"
+      "model": "site",
+      "via": "products"
     },
     "Image": {
       "model": "file",
@@ -38,6 +38,9 @@
     "short_description": {
       "type": "richtext",
       "required": true
+    },
+    "brand_name": {
+      "type": "string"
     }
   }
 }

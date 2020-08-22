@@ -21,8 +21,8 @@
       "collection": "article"
     },
     "products": {
-      "collection": "product",
-      "via": "site"
+      "via": "site",
+      "collection": "product"
     },
     "home_page": {
       "via": "site",
