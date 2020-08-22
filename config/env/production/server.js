@@ -10,5 +10,8 @@ module.exports = ({ env }) => ({
   },
   admin: {
     autoOpen: false,
+    auth: {
+      secret: env("ADMIN_JWT_SECRET"),
+    },
   },
 });

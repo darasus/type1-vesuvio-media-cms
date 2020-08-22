@@ -2,7 +2,7 @@
   "name": "vesuvio-media-cms",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Vesuvio Media Network CMS",
   "scripts": {
     "dev": "strapi develop",
     "start": "strapi start",
@@ -16,19 +16,19 @@
     "knex": "<0.20.0",
     "pg": "^8.2.1",
     "sqlite3": "latest",
-    "strapi": "3.0.1",
-    "strapi-admin": "3.0.1",
-    "strapi-connector-bookshelf": "3.0.1",
-    "strapi-plugin-content-manager": "3.0.1",
-    "strapi-plugin-content-type-builder": "3.0.1",
-    "strapi-plugin-email": "3.0.1",
-    "strapi-plugin-upload": "3.0.1",
-    "strapi-plugin-users-permissions": "3.0.1",
-    "strapi-provider-upload-google-cloud-storage": "^3.0.1",
-    "strapi-utils": "3.0.1"
+    "strapi": "3.1.4",
+    "strapi-admin": "3.1.4",
+    "strapi-connector-bookshelf": "3.1.4",
+    "strapi-plugin-content-manager": "3.1.4",
+    "strapi-plugin-content-type-builder": "3.1.4",
+    "strapi-plugin-email": "3.1.4",
+    "strapi-plugin-upload": "3.1.4",
+    "strapi-plugin-users-permissions": "3.1.4",
+    "strapi-provider-upload-google-cloud-storage": "^3.1.4",
+    "strapi-utils": "3.1.4"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Ilya Daraseliya"
   },
   "strapi": {
     "uuid": "903d0962-e6a7-4f7d-b8d8-a96e01e7133d"
