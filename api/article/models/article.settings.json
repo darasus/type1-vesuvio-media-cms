@@ -32,8 +32,8 @@
       "required": false
     },
     "site": {
-      "via": "articles",
-      "model": "site"
+      "model": "site",
+      "via": "articles"
     },
     "seo_title": {
       "type": "string",
@@ -52,6 +52,15 @@
     "excerpt": {
       "type": "text",
       "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "published",
+        "archived"
+      ],
+      "default": "draft"
     }
   }
 }

@@ -9,7 +9,7 @@
     "build": "strapi build",
     "strapi": "strapi",
     "gcp-build": "strapi build",
-    "deploy": "gcloud app deploy app.yaml"
+    "deploy": "echo 'y' | gcloud app deploy app.yaml"
   },
   "devDependencies": {},
   "dependencies": {

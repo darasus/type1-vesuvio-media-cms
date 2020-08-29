@@ -17,8 +17,8 @@
       "type": "string"
     },
     "articles": {
-      "collection": "article",
-      "via": "site"
+      "via": "site",
+      "collection": "article"
     },
     "products": {
       "collection": "product",
