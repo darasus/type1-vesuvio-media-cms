@@ -17,16 +17,16 @@
       "type": "string"
     },
     "articles": {
-      "via": "site",
-      "collection": "article"
+      "collection": "article",
+      "via": "site"
     },
     "products": {
-      "via": "site",
-      "collection": "product"
+      "collection": "product",
+      "via": "site"
     },
     "home_page": {
-      "via": "site",
-      "model": "home-page"
+      "model": "home-page",
+      "via": "site"
     },
     "primary_color": {
       "type": "string"
@@ -42,6 +42,10 @@
     "domain_name": {
       "type": "string",
       "required": true
+    },
+    "ga_tracking_id": {
+      "type": "string",
+      "required": false
     }
   }
 }

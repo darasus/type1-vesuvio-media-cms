@@ -18,8 +18,8 @@
       "required": true
     },
     "site": {
-      "model": "site",
-      "via": "home_page"
+      "via": "home_page",
+      "model": "site"
     },
     "title": {
       "type": "string",

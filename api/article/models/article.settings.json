@@ -32,23 +32,26 @@
       "required": false
     },
     "site": {
-      "model": "site",
-      "via": "articles"
+      "via": "articles",
+      "model": "site"
     },
     "seo_title": {
       "type": "string",
-      "maxLength": 65
+      "maxLength": 65,
+      "required": true
     },
     "seo_description": {
       "type": "text",
-      "maxLength": 160
+      "maxLength": 160,
+      "required": true
     },
     "is_published": {
       "type": "boolean",
       "default": false
     },
     "excerpt": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }

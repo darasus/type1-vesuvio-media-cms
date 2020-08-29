@@ -23,8 +23,8 @@
       "required": true
     },
     "site": {
-      "model": "site",
-      "via": "products"
+      "via": "products",
+      "model": "site"
     },
     "Image": {
       "model": "file",
