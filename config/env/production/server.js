@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
     enabled: false,
   },
   cron: {
-    enabled: false,
+    enabled: true,
   },
   admin: {
     autoOpen: false,

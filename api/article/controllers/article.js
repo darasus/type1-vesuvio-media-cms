@@ -16,7 +16,6 @@ module.exports = {
     } else {
       entities = await strapi.services.article.find(ctx.query);
     }
-    console.log(entities);
 
     return entities.map((entity) =>
       sanitizeEntity(entity, { model: strapi.models.article })
