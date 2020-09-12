@@ -17,8 +17,8 @@
       "type": "string"
     },
     "articles": {
-      "via": "site",
-      "collection": "article"
+      "collection": "article",
+      "via": "site"
     },
     "products": {
       "collection": "product",
@@ -46,6 +46,9 @@
     "ga_tracking_id": {
       "type": "string",
       "required": false
+    },
+    "product_list_title": {
+      "type": "string"
     }
   }
 }

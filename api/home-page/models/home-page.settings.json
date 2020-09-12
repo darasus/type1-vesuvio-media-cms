@@ -35,12 +35,10 @@
       "required": false
     },
     "seo_title": {
-      "type": "string",
-      "maxLength": 65
+      "type": "string"
     },
     "seo_description": {
-      "type": "string",
-      "maxLength": 160
+      "type": "string"
     }
   }
 }
